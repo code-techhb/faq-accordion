@@ -7,7 +7,7 @@ This is a solution to the **FAQ Accordion** challenge from [Frontend Mentor](htt
 ## 🚀 Technologies Used
 
 - HTML5
-- CSS3 for responsiveness
+- CSS3 
 - JavaScript
 
 ## 📖 Lessons Learned
