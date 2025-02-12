@@ -1,6 +1,6 @@
 # FAQ Component
 
-![Project Preview](./assets/solution.mov)
+![Project Preview](./assets/solution.png)
 
 This is a solution to the **FAQ Accordion** challenge from [Frontend Mentor](https://www.frontendmentor.io).
 
@@ -22,3 +22,5 @@ In this project, I practiced:
 ---
 
 🚀 **Thank you for checking out this project!** If you liked it, feel free to give it a ⭐ and connect with me for more web dev mini projects. Happy coding! 👩🏽‍💻
+
+PS: Here's the [link](https://faq-accordion-component-bhb.netlify.app/) to the website live, check it out :)
