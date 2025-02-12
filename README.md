@@ -1,3 +1,24 @@
-# Frontend Mentor - FAQ accordion solution
+# FAQ Component
 
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+![Project Preview](./assets/solution.mov)
+
+This is a solution to the **FAQ Accordion** challenge from [Frontend Mentor](https://www.frontendmentor.io).
+
+## 🚀 Technologies Used
+
+- HTML5
+- CSS3 for responsiveness
+- JavaScript
+
+## 📖 Lessons Learned
+
+In this project, I practiced:
+
+- **DOM Manipulation**: Selecting elements, adding event listeners, and dynamically toggling classes
+- **Event Handling**: Using click events to toggle the visibility of answers and changing icons
+- **Responsive Design**: Ensuring the FAQ accordion looks great on all screen sizes using media queries
+- **CSS Styling**: Flexbox and Grid layouts for the accordion and other components, as well as custom icon handling
+
+---
+
+🚀 **Thank you for checking out this project!** If you liked it, feel free to give it a ⭐ and connect with me for more web dev mini projects. Happy coding! 👩🏽‍💻
