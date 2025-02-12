@@ -23,7 +23,6 @@ stateControllerBtns.forEach((button, index) => {
     // toggle answer visibility
     answer.classList.toggle('hidden-content');
 
-    // tpdate icon
     updateIcon(button, isHidden);
   });
 });

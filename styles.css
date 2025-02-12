@@ -74,11 +74,12 @@ main {
 .card-component {
   background-color: var(--white);
   padding: 2rem 3rem;
-  width: 75rem;
+  max-width: 70rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   border-radius: 16px;
+  box-shadow: 10px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card-title {
@@ -101,17 +102,22 @@ h2 {
   border-top: solid 1px var(--light-pink);
   display: grid;
   grid-template-columns: 1fr auto;
-  column-gap: 2.4rem;
-  row-gap: 3rem;
+  column-gap: 1.4rem;
+  row-gap: 1rem;
   align-items: center;
   padding: 2rem 0;
 }
 
 .question {
   color: var(--dark-purple);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: var(--font-weight-600);
   align-items: center;
+}
+
+.item:hover .question {
+  color: #c648dc;
+  cursor: pointer;
 }
 
 .answer p {
@@ -142,4 +148,126 @@ h2 {
 .attribution a:hover {
   text-decoration: underline;
   color: var(--color-blue-dark);
+}
+
+/* for tablets */
+@media screen and (max-width: 768px) {
+  .card-component {
+    max-width: 90%;
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 6rem;
+  }
+
+  .card-title img {
+    width: 4rem;
+  }
+
+  .question {
+    font-size: 1.6rem;
+  }
+
+  .answer p {
+    font-size: 1.5rem;
+  }
+}
+
+/* for mobile */
+@media screen and (max-width: 480px) {
+  main {
+    background: linear-gradient(
+        to bottom,
+        transparent 35%,
+        var(--light-pink) 35%
+      ),
+      url('./assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-component {
+    max-width: 95%;
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  .card-title {
+    gap: 1.5rem;
+  }
+
+  .card-title img {
+    width: 3rem;
+  }
+
+  .item {
+    padding: 1.5rem 0;
+    gap: 1rem;
+  }
+
+  .question {
+    font-size: 1.4rem;
+  }
+
+  .answer p {
+    font-size: 1.3rem;
+  }
+
+  .attribution {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+/* for very small devices */
+@media screen and (max-width: 320px) {
+  .card-component {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .question {
+    font-size: 1.3rem;
+  }
+
+  .answer p {
+    font-size: 1.2rem;
+  }
+}
+
+/* for larger screens */
+@media screen and (min-width: 1200px) {
+  .card-component {
+    max-width: 80rem;
+  }
+
+  .question:hover {
+    color: var(--grayish-purple);
+    cursor: pointer;
+  }
+
+  .state-controller:hover {
+    cursor: pointer;
+  }
+}
+
+/* for tvs */
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 70%;
+  }
+
+  .card-component {
+    max-width: 90rem;
+  }
 }
